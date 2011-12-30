@@ -1,0 +1,12 @@
+pg_bloated_indices.sql:
+  relation:
+    the name of the index in question
+  ituples:
+    the number of tuples in the index
+  ipages:
+    the number of pages on disk consumed by the index
+  iotta:
+    ?
+  ibloat:
+    "bloat factor", i.e. the number of pages the index is consuming
+    divided by the number of pages the index should consume
